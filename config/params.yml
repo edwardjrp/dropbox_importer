@@ -1,0 +1,26 @@
+sheet_db:
+  adapter: "mysql2"
+  encoding: "utf8"
+  host: "127.0.0.1"
+  database: "sheet_import"
+  username: "root"
+  password: "root"
+  port: 3306
+  socket: /tmp/mysql.sock
+
+google_drive_api:
+  client_id: "326315838389-b6r9jsmjh4nlpvrn8bgucbua3p1r0bos.apps.googleusercontent.com"
+  client_secret: "notasecret"
+  email_address: "326315838389-b6r9jsmjh4nlpvrn8bgucbua3p1r0bos@developer.gserviceaccount.com"
+  certificate_fingerprints: "3f2e9294672ce1b8b7c6d68e8f575a261ae9bf60"
+  auth_uri: "https://accounts.google.com/o/oauth2/auth"
+  token_uri: "https://accounts.google.com/o/oauth2/token"
+  redirect_uri: "urn:ietf:wg:oauth:2.0:oob"
+
+dropbox_api:
+  app_key: "inj13xqtrctznrn"
+  app_secret: "3o5sxjwxieslh23"
+  self_account_token: "kDF6RpilcWAAAAAAAAAAQOGL7eRv_HPVJ7aYwCJB246lJigsMYJiU0WSE3TpjUwn"
+  self2_account_token: "kDF6RpilcWAAAAAAAAAARKkXRR3D8yDCYMp_sfxlDFm-rkG-GXWI_DtZMR3y-50j"
+
+
